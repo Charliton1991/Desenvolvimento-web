@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+body{
+    background-color: rgb(53, 153, 170);
+    
+}
+a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+a :hover {
+    background-color: white;
+    color: dodgerblue;
+    outline: invert;
+}
