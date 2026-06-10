@@ -1,0 +1,28 @@
+div {
+    border: 1px solid black; 
+    height: 10px;
+    
+} 
+header {
+position: fixed;
+height: 32px;
+}
+nav {
+    position: sticky;
+    top: 0;
+}
+main {
+    height: 100vh;
+    position: relative;
+
+}
+#fotos {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 20px;
+    right: 0;
+
+
+
+}
