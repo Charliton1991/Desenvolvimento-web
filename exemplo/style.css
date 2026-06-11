@@ -1,0 +1,22 @@
+section {
+    background-image:  #ffffff url("waffle.jpg") no-repeat right top; box-shadow: 5px 5px 10px;
+    
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: aqua;
+}
+section {
+    text-align: center;
+}
+ol {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
+li {
+    align-items: center;
+}
