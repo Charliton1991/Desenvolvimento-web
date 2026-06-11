@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.galeria {
+   
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    max-width: 600px;
+    margin: 10px auto;
+    justify-items: start; 
+    
+}
+
+.galeria img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
