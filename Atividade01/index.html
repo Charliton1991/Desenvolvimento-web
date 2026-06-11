@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas músicas favoritas</title>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
+<body>
+  <h1>Minhas músicas favoritas</h1>
 
-<body> 
-    <h1>Minhas músicas preferidas</h1>
+  <!-- Primeira linha de imagens -->
+  <div class="linha">
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID1" target="_blank">
+      <img src="sertanejo01.jpg" alt="Música 1">
+    </a>
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID2" target="_blank">
+      <img src="sertanejo02.jpg" alt="Música 2">
+    </a>
+  </div>
 
-   <img src="sertanejo01.jpg" alt=""><img src="sertanejo02.jpg" alt="">
-   <img src="sertanejo03.jpg" alt=""><img src="sertanejo04.jpg" alt="">
-   
+  <!-- Segunda linha de imagens -->
+  <div class="linha">
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID3" target="_blank">
+      <img src="sertanejo03.jpg" alt="Música 3">
+    </a>
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID4" target="_blank">
+      <img src="sertanejo04.jpg" alt="Música 4">
+    </a>
+  </div>
 
-    <button>voltar<a href="index.html"></a></button>
-   
+  <!-- Botão para voltar -->
+  <button class="voltar" onclick="window.location.href='index.html'">Voltar</button>
 </body>
 </html>
