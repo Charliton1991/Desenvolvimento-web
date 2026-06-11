@@ -1,12 +1,12 @@
 h1 {
-border: 1px; 
+border: 1px solid black; 
 
 }
 p {
-border: 1px
+border: 1px solid black;
 ;
 }
 a {
-border: 1px;
+border: 1px solid black;
 
 }

@@ -6,6 +6,17 @@ h2 {
 
 }
 a {
-    display: inline-block; 
-    
+margin-right: 10px;
+}
+#cidade {
+    width: 200px;
+    border: 1px solid black;
+}
+#hagia {
+    width: 200px;
+    border: 1px solid black;
+}
+#cappadocia {
+    width: 200px;
+    border: 1px solid black;
 }
