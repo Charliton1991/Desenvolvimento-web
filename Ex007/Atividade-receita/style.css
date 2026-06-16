@@ -1,0 +1,41 @@
+body {
+    background-color: dodgerblue;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px black;
+    margin: 60px auto;
+    padding: 20px;
+    
+}
+
+figcaption {
+    text-align: right;
+    
+}
+
+#waffles {
+   
+    height: 200px; 
+    background: url(pexels-itsmeeesole-35832883.jpg) no-repeat center center/cover;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section, p, div {
+    width: 100%; 
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
