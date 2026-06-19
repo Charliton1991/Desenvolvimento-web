@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font: white;
+    --bgMenu: #333;
+    --bgSite: #f1f1f1;
+    --bgHover: #aaa;
+}
+header {
+    background-color: #333;
+    padding: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: var(--bgBody);
+}
+label[for="btnMenu"] { 
+height: 50px;
+flex: 1;
+width:100%;
+background-color: #222;
+cursor:pointer;
+justify-content: center;
+align-items: center;
+color: var(--font);
+display: none;
+}
+nav {
+    background-color: var(--bgNav);
+    display: flex;
+    flex-direction: row;
+  
+}
+nav a {
+    text-decoration: none;
+    color: var(--font);
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+    padding: 16px;
+    
+}
+
+nav a:hover {
+    background-color: var(--bgNav);
+}
+
+main {
+display: flex;
+margin-top: 20px;
+
+}
+
+#coluna75 {
+    width: 75%;
+
+}
+
+#coluna25 {
+    width: 25%;
+    padding-left: 20px;
+}
+
+section {
+background-color: var(--font);  
+padding: 20px; 
+margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--font);
+    text-align: center;
+    padding: 30px;
+}
+@media (max-widht: 800px) {
+    main {
+        flex-direction: column;
+    }
+    #coluna75 {
+width: 100%;
+    }
+    #coluna25 {
+width: 100%;
+padding-left: 0;
+    }
+}
+nav {
+    display: none;
+    flex-direction: column;
+    
+
+}
+label[for='btn-menu'] {
+    display: flex;
+   
+}
+.active {
+    display: flex;
+}

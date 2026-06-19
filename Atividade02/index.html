@@ -5,14 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Site Responsivo</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
+    <div id="troca" onclick="light()">
+    <button></button>
+  </div>
+
     <h1>Meu Site Responsivo</h1>
     <p>Redimensione a janela do navegador para ver como ele se comporta</p>
   </header>
-
-  <nav>
+ <nav>
     <ul>
       <li><a href="#">Link 1</a></li>
       <li><a href="#">Link 2</a></li>
@@ -26,7 +30,7 @@
       <article class="sessao">
         <h2>Sessão 1</h2>
         <p>Charliton Oliveira - 16 de Junho de 2026</p>
-        <div class="imagem"><img src="pexels-david-hitchcock-2160795853-37001429.jpg" alt=""></div>
+        <div class="imagem"><img src="passaro.jpg" alt=""></div>
         <p>Lorem ipsum dolor sit amet...</p>
       </article>
 
@@ -35,7 +39,7 @@
       <article class="sessao">
         <h2>Sessão 2</h2>
         <p>Charliton Oliveira - 16 de Junho de 2026</p>
-        <div class="imagem"><img src="pexels-wenxiang-83911323-37138139.jpg" alt=""></div>
+        <div class="imagem"><img src="folhas.jpg" alt=""></div>
         <p>Lorem ipsum dolor sit amet...</p>
       </article>
 
@@ -72,18 +76,29 @@
     <aside class="sidebar">
       <div class="box">
         <h3>Sobre Mim</h3>
-        <div class="imagem"><img src="fotografia.jpg" alt=""></div>
+        <div class="imagem"><img src="fusca.jpg" alt=""></div>
       </div>
 
       <div class="box">
         <h3>Postagens Populares</h3>
-        <div class="imagem"><img src="Plantas.jpg" alt=""></div>
-        <div class="imagem"><img src="praia.jpg" alt=""></div>
+        <div class="imagem"><img src="montanhas.jpg" alt=""></div>
+        <div class="imagem"><img src="cidade.jpg" alt=""></div>
       </div>
 
       <div class="box">
         <h3>Rede Sociais</h3>
-        <p>ícones aqui...</p>
+        <p>
+            <a href="">
+                <img src="facebook.png" alt="">
+            </a>
+        <a href=""><img src="message.png" alt="">
+        </a> 
+
+        <a href=""><img src="instagram.png" alt="">
+        </a> 
+
+        </p>
+
       </div>
     </aside>
   </main>
@@ -91,6 +106,6 @@
   <footer>
     <p>Desenvolvido por Charliton Oliveira</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
-
